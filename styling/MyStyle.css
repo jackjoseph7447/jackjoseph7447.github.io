@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap');
+
 body
 {
     background-color: #ABA7A6;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-#container
+#AboutMeInfo
 {
-    
+    text-align: center;
+}
+
+#FGCImages
+{
+    width: 15%;
+    height: auto;
+    padding-left: 5rem;
 }
