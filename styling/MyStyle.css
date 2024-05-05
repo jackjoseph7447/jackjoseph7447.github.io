@@ -4,16 +4,24 @@ body
 {
     background-color: #ABA7A6;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
 }
 
-#AboutMeInfo
+#info
 {
     text-align: center;
+    padding: 3rem;
 }
 
 #FGCImages
 {
     width: 15%;
     height: auto;
-    padding-left: 5rem;
+    /* padding-left: 5rem; */
+}
+
+#MeImg
+{
+    width: 300px;
+    height: 300px;
 }
