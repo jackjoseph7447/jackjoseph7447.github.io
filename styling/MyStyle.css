@@ -135,3 +135,38 @@ body {
   width: 450px;
   height: 450px;
 }
+
+/* Ensure the images scale correctly on smaller devices */
+#info img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  margin-bottom: 1rem;
+  border-radius: 8px; /* Optional: rounded corners for a better look */
+}
+
+/* Center align the images on mobile screens */
+@media (max-width: 576px) {
+  #info {
+    text-align: center;
+  }
+  #info img {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* Adjust the font size for better readability on smaller screens */
+@media (max-width: 768px) {
+  #info h3 {
+    font-size: 1.2rem;
+  }
+  #info p {
+    font-size: 1rem;
+  }
+}
+
+/* Add some padding around the content for better spacing on mobile */
+#info {
+  padding: 1rem;
+}
